@@ -190,3 +190,5 @@ class TestSCCWhiteBox(unittest.TestCase):
         self.scc.set_BatVoltage(52.0)
         self.scc.set_PV(1500)
         self.assertGreater(self.scc.suggest()['BAT'], 0)
+
+
